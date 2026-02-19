@@ -103,12 +103,3 @@ res = sorted(san)
 reste = reversed(res)
 print(*reste)
 '''
-a=int(input())
-l = int(input())
-r = int(input())
-shy = input().split()
-san = []
-for i in range(a):
-    san.append(int(shy[i]))
-san[l:r]
-print(*san)
