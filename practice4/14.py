@@ -1,15 +1,12 @@
-# Функция для проверки високосного года
+
 def is_leap(y):
     return (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0)
 
-# Количество дней в месяцах
 days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
 
 def days_since_0000(y,m,d):
     days = y*365 + d
-    # добавляем високосные годы
     days += sum(1 for year in range(y) if is_leap(year))
-    # добавляем дни месяцев
     for i in range(m-1):
         days += days_in_month[i]
         if i==1 and is_leap(y):
@@ -22,7 +19,7 @@ def parse(date_str):
     sign = 1 if tz[3]=='+' else -1
     hours = int(tz[4:6])
     minutes = int(tz[7:9])
-    offset_days = sign*(hours*60 + minutes)/1440  # 1440 минут в дне
+    offset_days = sign*(hours*60 + minutes)/1440
     total_days = days_since_0000(y,m,d) - offset_days
     return total_days
 
