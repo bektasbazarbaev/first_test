@@ -15,7 +15,7 @@ print(x)
 import re
 
 txt = "The rain in Spain"
-x = re.search("\s", txt)
+x = re.search(r"\s", txt)
 
 print("The first white-space character is located in position:", x.start())
 
@@ -29,25 +29,25 @@ print(x)
 import re
 
 txt = "The rain in Spain"
-x = re.split("\s", txt)
+x = re.split(r"\s", txt)
 print(x)
 #6666666666
 import re
 
 txt = "The rain in Spain"
-x = re.split("\s", txt, 1)
+x = re.split(r"\s", txt, maxsplit=1)
 print(x)
 #7777777 sub
 import re
 
 txt = "The rain in Spain"
-x = re.sub("\s", "9", txt)
+x = re.sub(r"\s", "9", txt)
 print(x)
 #888888888 sub
 import re
 
 txt = "The rain in Spain"
-x = re.sub("\s", "9", txt, 2)
+x = re.sub(r"\s", "9", txt, count=2)
 print(x)
 #999 SPAN
 import re

@@ -1,0 +1,4 @@
+Hello!
+This is a sample file.
+Python file handling practice.
+New line added.
