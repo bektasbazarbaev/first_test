@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Dana",
+        "email": "dana@gmail.com",
+        "birthday": "2004-11-01",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87011223344",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Ali",
+        "email": "ali@mail.com",
+        "birthday": "2002-03-20",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87771234567",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Bektas",
+        "email": "bektas@gmail.com",
+        "birthday": "2003-05-12",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87005554433",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Zheks",
+        "email": "damngr@gmail.com",
+        "birthday": "2008-05-25",
+        "group": "friend",
+        "phones": [
+            {
+                "phone": "87794002030",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Baki",
+        "email": "bdnjkdjb@gmail.com",
+        "birthday": "2025-02-25",
+        "group": "home",
+        "phones": [
+            {
+                "phone": "87029902939",
+                "type": "work"
+            },
+            {
+                "phone": "890302022",
+                "type": "mobile"
+            }
+        ]
+    }
+]
