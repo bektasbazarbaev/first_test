@@ -1,0 +1,39 @@
+DB_CONFIG = {
+    "host": "localhost",
+    "database": "snake_db",
+    "user": "postgres",
+    "password": "1234",
+    "port": "5432"
+}
+
+CELL_SIZE = 20
+GRID_WIDTH = 30
+GRID_HEIGHT = 20
+
+WIDTH = GRID_WIDTH * CELL_SIZE
+HEIGHT = GRID_HEIGHT * CELL_SIZE
+
+FPS_START = 7
+FOODS_PER_LEVEL = 3
+
+FOOD_LIFETIME_MS = 5000
+POWERUP_LIFETIME_MS = 8000
+POWERUP_DURATION_MS = 5000
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY = (70, 70, 70)
+
+GREEN = (0, 200, 0)
+DARK_GREEN = (0, 120, 0)
+
+RED = (220, 0, 0)
+DARK_RED = (120, 0, 0)
+
+YELLOW = (255, 215, 0)
+PURPLE = (160, 0, 255)
+
+ORANGE = (255, 140, 0)
+CYAN = (0, 220, 220)
+PINK = (255, 100, 180)
+BROWN = (120, 70, 20)
